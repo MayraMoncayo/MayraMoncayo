@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="951" height="227" viewBox="0 0 951 227" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13">
+  <style>
+    .art { fill: #c9d1d9; }   .hdr { fill: #e6edf3; font-weight: bold; }   .fg { fill: #e6edf3; }
+    .cc { fill: #8b949e; }     .key { fill: #ffa657; }   .value { fill: #58a6ff; }
+    .add { fill: #3fb950; }   .del { fill: #f85149; }   .user { fill: #3fb950; font-weight: bold; }
+    .inv { fill: #0d1117; }    .bar { fill: #8b949e; }    .typing-cursor { fill: #e6edf3; opacity: 0; }
+    @keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes vanish { from { opacity: 1; } to { opacity: 0; } }
+    @keyframes ink    { from { fill-opacity: 0; } to { fill-opacity: 1; } }   /* tspans: opacity does not apply, fill-opacity does */
+    @keyframes blink  { 0%, 55% { fill-opacity: 1; } 56%, 100% { fill-opacity: 0; } }
+    @keyframes travel { from { transform: translateX(0); } to { transform: translateX(var(--travel)); } }
+    .boot          { animation: vanish 0.25s linear forwards; }
+    .boot text     { opacity: 0; animation: appear 0.05s linear forwards; }
+    .typed tspan   { animation: ink 0.01s linear both; }
+    .typing-cursor { animation-name: appear, travel, vanish; animation-fill-mode: forwards, forwards, forwards; }
+    .line          { animation: appear 0.12s ease-out both; }
+    .cursor        { animation: blink 1s step-end infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .boot { display: none; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="950" height="226" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text class="typed" x="22.0" y="35" textLength="249.6" lengthAdjust="spacing" xml:space="preserve"><tspan class="user" style="animation-delay:0.20s">m</tspan><tspan class="user" style="animation-delay:0.24s">a</tspan><tspan class="user" style="animation-delay:0.28s">y</tspan><tspan class="user" style="animation-delay:0.32s">r</tspan><tspan class="user" style="animation-delay:0.36s">a</tspan><tspan class="user" style="animation-delay:0.40s">-</tspan><tspan class="user" style="animation-delay:0.44s">m</tspan><tspan class="user" style="animation-delay:0.48s">o</tspan><tspan class="user" style="animation-delay:0.52s">n</tspan><tspan class="user" style="animation-delay:0.56s">c</tspan><tspan class="user" style="animation-delay:0.60s">a</tspan><tspan class="user" style="animation-delay:0.64s">y</tspan><tspan class="user" style="animation-delay:0.68s">o</tspan><tspan class="user" style="animation-delay:0.72s">@</tspan><tspan class="user" style="animation-delay:0.76s">c</tspan><tspan class="user" style="animation-delay:0.80s">l</tspan><tspan class="user" style="animation-delay:0.84s">i</tspan><tspan class="user" style="animation-delay:0.88s">p</tspan><tspan class="fg" style="animation-delay:0.92s">:</tspan><tspan class="value" style="animation-delay:0.96s">~</tspan><tspan class="fg" style="animation-delay:1.00s">$</tspan><tspan class="fg" style="animation-delay:1.04s"> </tspan><tspan class="fg" style="animation-delay:1.08s">t</tspan><tspan class="fg" style="animation-delay:1.12s">o</tspan><tspan class="fg" style="animation-delay:1.16s">p</tspan><tspan class="fg" style="animation-delay:1.20s"> </tspan><tspan class="fg" style="animation-delay:1.24s">-</tspan><tspan class="fg" style="animation-delay:1.28s">o</tspan><tspan class="fg" style="animation-delay:1.32s"> </tspan><tspan class="fg" style="animation-delay:1.36s">c</tspan><tspan class="fg" style="animation-delay:1.40s">p</tspan><tspan class="fg" style="animation-delay:1.44s">u</tspan></text>
+  <rect class="typing-cursor" x="22.0" y="23" width="7.8" height="15" style="animation-delay:0.20s,0.20s,1.63s;animation-duration:0.01s,1.28s,0.01s;animation-timing-function:linear,steps(32,end),linear;--travel:249.6px"/>
+  <text class="line" x="22.0" y="52" textLength="631.8" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:1.78s"><tspan class="fg">top - 18:43:36 up 36 years, 4 months, 12 days,  1 user,  load average: 6, 32, 129</tspan></text>
+  <text class="line" x="22.0" y="69" textLength="288.6" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:1.82s"><tspan class="fg">Tasks: </tspan><tspan class="hdr">6</tspan><tspan class="fg"> total, </tspan><tspan class="hdr">4</tspan><tspan class="fg"> running, </tspan><tspan class="hdr">2</tspan><tspan class="fg"> sleeping</tspan></text>
+  <rect class="line" x="18" y="90" width="915" height="17" fill="#8b949e" style="animation-delay:1.92s"/>
+  <text class="line" x="22.0" y="103" textLength="335.4" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:1.92s"><tspan class="inv">  PID USER       STAT  %CPU  TIME+  COMMAND</tspan></text>
+  <text class="line" x="22.0" y="120" textLength="491.4" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:1.96s"><tspan class="cc">    1 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="add"> R   </tspan><tspan class="value">   45 </tspan><tspan class="key">   10y  </tspan><tspan class="fg">mobile --native android,ios</tspan></text>
+  <text class="line" x="22.0" y="137" textLength="436.8" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:2.00s"><tspan class="cc">    2 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="add"> R   </tspan><tspan class="value">   15 </tspan><tspan class="key">    1y  </tspan><tspan class="fg">kotlin-multiplatform</tspan></text>
+  <text class="line" x="22.0" y="154" textLength="561.6" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:2.05s"><tspan class="cc">    3 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="add"> R   </tspan><tspan class="value">   20 </tspan><tspan class="key">   6mo  </tspan><tspan class="fg">dotnet-4.8 --aspnet-mvc --sql-server</tspan></text>
+  <text class="line" x="22.0" y="171" textLength="569.4" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:2.10s"><tspan class="cc">    4 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="add"> R   </tspan><tspan class="value">   15 </tspan><tspan class="key">    1y  </tspan><tspan class="fg">claude-code --agents 14 --pipelines 3</tspan></text>
+  <text class="line" x="22.0" y="188" textLength="335.4" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:2.14s"><tspan class="cc">    5 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="cc"> S   </tspan><tspan class="value">    3 </tspan><tspan class="key">   6mo  </tspan><tspan class="fg">backend</tspan></text>
+  <text class="line" x="22.0" y="205" textLength="304.2" lengthAdjust="spacing" xml:space="preserve" style="animation-delay:2.19s"><tspan class="cc">    6 </tspan><tspan class="fg">mayra-mo+  </tspan><tspan class="cc"> S   </tspan><tspan class="value">    2 </tspan><tspan class="key">   6mo  </tspan><tspan class="fg">web</tspan></text>
+</svg>

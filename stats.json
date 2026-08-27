@@ -1,0 +1,24 @@
+{
+  "sample": true,
+  "note": "Sample numbers so the cards render before the first workflow run. update_stats.py overwrites this file.",
+  "generated_at": "2026-08-25T00:17:00-06:00",
+  "created_at": "2015-01-01T00:00:00Z",
+  "repos": 24,
+  "contributed": 41,
+  "stars": 87,
+  "commits": 3412,
+  "followers": 58,
+  "additions": 412873,
+  "deletions": 96114,
+  "activity": [2, 0, 4, 7, 3, 0, 0, 5, 9, 6, 2, 1, 0, 8, 12, 4, 3, 0, 1, 6, 10, 7, 2, 0, 3, 5, 8, 11, 4, 6],
+  "load": [6, 32, 129],
+  "languages": [
+    {"name": "Kotlin", "color": "#A97BFF", "bytes": 1840000},
+    {"name": "C#", "color": "#178600", "bytes": 980000},
+    {"name": "Swift", "color": "#F05138", "bytes": 660000},
+    {"name": "Python", "color": "#3572A5", "bytes": 390000},
+    {"name": "TSQL", "color": "#e38c00", "bytes": 240000},
+    {"name": "Shell", "color": "#89e051", "bytes": 120000},
+    {"name": "JavaScript", "color": "#f1e05a", "bytes": 90000}
+  ]
+}

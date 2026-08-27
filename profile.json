@@ -1,0 +1,88 @@
+{
+  "user": "mayra-moncayo",
+  "host": "clip",
+  "uptime_since": "1990-04-14",
+  "info_width": 64,
+  "boot": [
+    "Started android.service",
+    "Started ios.service",
+    "Mounted kotlin-multiplatform",
+    "Started dotnet-framework-4.8 (aspnet-mvc, sql-server)",
+    "Loaded backend.service, web.service (on-demand)",
+    "Started claude-code --agents 14 --pipelines 3",
+    "Reached target tech-lead"
+  ],
+  "lines": [
+    "OS: macOS, Android, iOS, Windows",
+    "Kernel: Tech Lead",
+    "Uptime: {uptime}",
+    "Host: Clip",
+    "Shell: zsh, PowerShell",
+    "Packages: gradle, spm, nuget, pip",
+    "Mobile: Android, iOS · native + KMP",
+    "Also: .NET Framework 4.8 · SQL Server, backend, web",
+    "IDE: Android Studio, Xcode, Visual Studio",
+    "",
+    "Languages.Programming: Kotlin, Swift, C#, T-SQL, Python",
+    "Languages.Markup: Razor, YAML, JSON, Markdown",
+    "Languages.Real: Español, English",
+    "Frameworks: KMP, Compose, ASP.NET MVC",
+    "",
+    "Hobbies.Software: AI agents, LLM tooling, automation",
+    "Hobbies.Hardware: Raspberry Pi, ambient displays",
+    "",
+    "Contact",
+    "  LinkedIn: mayramoncayo",
+    "",
+    "GitHub Stats",
+    "{stats}"
+  ],
+  "languages": {
+    "max": 5,
+    "exclude": [
+      "HTML",
+      "CSS",
+      "Makefile",
+      "Dockerfile",
+      "Batchfile"
+    ]
+  },
+  "top": [
+    {
+      "stat": "R",
+      "cpu": 45,
+      "time": "10y",
+      "cmd": "mobile --native android,ios"
+    },
+    {
+      "stat": "R",
+      "cpu": 15,
+      "time": "1y",
+      "cmd": "kotlin-multiplatform"
+    },
+    {
+      "stat": "R",
+      "cpu": 20,
+      "time": "6mo",
+      "cmd": "dotnet-4.8 --aspnet-mvc --sql-server"
+    },
+    {
+      "stat": "R",
+      "cpu": 15,
+      "time": "1y",
+      "cmd": "claude-code --agents 14 --pipelines 3"
+    },
+    {
+      "stat": "S",
+      "cpu": 3,
+      "time": "6mo",
+      "cmd": "backend"
+    },
+    {
+      "stat": "S",
+      "cpu": 2,
+      "time": "6mo",
+      "cmd": "web"
+    }
+  ]
+}
