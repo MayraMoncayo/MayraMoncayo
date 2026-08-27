@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T18:44:31-06:00",
+  "generated_at": "2026-08-26T18:58:25-06:00",
   "login": "MayraMoncayo",
   "created_at": "2016-08-04T17:16:34Z",
   "repos": 118,
   "contributed": 13,
   "stars": 0,
-  "commits": 586,
+  "commits": 587,
   "followers": 2,
-  "additions": 7962,
-  "deletions": 372,
+  "additions": 260868,
+  "deletions": 24246,
   "activity": [
     0,
     4,
@@ -48,19 +48,49 @@
   ],
   "languages": [
     {
-      "name": "Swift",
-      "color": "#F05138",
-      "bytes": 53485
+      "name": "Kotlin",
+      "color": "#A97BFF",
+      "bytes": 8852227
+    },
+    {
+      "name": "Go",
+      "color": "#00ADD8",
+      "bytes": 826340
     },
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 36174
+      "bytes": 111673
     },
     {
-      "name": "Kotlin",
-      "color": "#A97BFF",
-      "bytes": 25582
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "bytes": 92746
+    },
+    {
+      "name": "Swift",
+      "color": "#F05138",
+      "bytes": 54716
+    },
+    {
+      "name": "Go Template",
+      "color": "#00ADD8",
+      "bytes": 29451
+    },
+    {
+      "name": "Shell",
+      "color": "#89e051",
+      "bytes": 6304
+    },
+    {
+      "name": "CSS",
+      "color": "#663399",
+      "bytes": 1032
+    },
+    {
+      "name": "Makefile",
+      "color": "#427819",
+      "bytes": 976
     },
     {
       "name": "HTML",
@@ -68,9 +98,9 @@
       "bytes": 948
     },
     {
-      "name": "CSS",
-      "color": "#663399",
-      "bytes": 544
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "bytes": 605
     }
   ]
 }
