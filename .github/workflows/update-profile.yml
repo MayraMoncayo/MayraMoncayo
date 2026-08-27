@@ -11,6 +11,7 @@ on:
       - ascii.json
       - build_svg.py
       - update_stats.py
+      - .github/workflows/update-profile.yml
 
 permissions:
   contents: write
@@ -38,7 +39,7 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ github.repository_owner }}
-          LOC_AFFILIATIONS: OWNER   # add COLLABORATOR,ORGANIZATION_MEMBER to also count work repos
+          LOC_AFFILIATIONS: OWNER,COLLABORATOR,ORGANIZATION_MEMBER   # count own, collaborator and org repos
         run: python update_stats.py
 
       - name: Render the SVG cards
